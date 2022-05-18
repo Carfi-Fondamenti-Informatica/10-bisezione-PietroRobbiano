@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cmath>
-#include<iomanip>
 using namespace std;
 
 float funzione( float a){
@@ -36,6 +35,6 @@ int main() {
             }
         }
     }
-    cout <<setprecision(4)<< x << endl;
+       cout<<int(x*10000)/10000.0<<endl;
     return 0;
 }
