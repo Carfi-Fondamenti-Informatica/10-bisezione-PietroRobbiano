@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include<iomanip>
 using namespace std;
 
 float funzione( float a){
@@ -35,7 +36,6 @@ int main() {
             }
         }
     }
-    cout << x << endl;
-    cout << funzione(x) << endl;
+    cout <<setprecision(4)<< x << endl;
     return 0;
 }
